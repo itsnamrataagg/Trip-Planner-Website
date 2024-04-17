@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+    nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-width: 400px;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+nav ul ul li {
+  float: none;
+}
+
+nav ul ul li a {
+  padding: 8px 16px;
+}
+
+nav ul ul li a:hover {
+  background-color: #444;
+}
+nav {
+  background-color: #4085c1; 
+  overflow: hidden;
+}
+
+
+.centered-image-container {
+        position: absolute;
+        left: 20px; 
+        top: 50%;
+        transform: translateY(-50%);
+        
+    }
+    .centered-image {
+        max-width: 50%; 
+        max-height: 40vh; 
+        margin-top: 5px;
+    }
+    .signup-box-container {
+    position: absolute;
+    top: 20px; 
+    left: 1280px; 
+    background-color: #4085c1; 
+    padding: 5px;
+    border-radius: 25px;
+    margin-top: 70px;
+}
+
+.signup-box-anchor {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none; 
+}
+
+.signup-box {
+    background-color: white; 
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.signup-box p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+}
+
+    .language-selector {
+        position: absolute;
+        top: 20px; 
+        right: 20px;
+        font-family: Arial, sans-serif;
+        cursor: pointer;
+        margin-top: 70px;
+    }
+
+    .language-selector-text {
+        padding: 10px 20px;
+        background-color: #f3f3f3;
+        border-radius: 20px;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .language-selector-text::after {
+        content: "\1F30E"; 
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 5px;
+    }
+
+    
+    .dropdown-content a {
+        color: #333;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    
+    .dropdown-content a:hover {
+        background-color: #f2f2f2;
+    }
+
+  
+    .language-selector:hover .dropdown-content {
+        display: block;
+    }
+    .center-text {
+        text-align: center;
+        
+    }
+
+    
+    .bold-text {
+        font-weight: bold;
+        font-size: 50px;
+        margin-top: -260px;
+        
+       
+    }
+    .each-time {
+        margin-left: -100px; 
+    }
+    .italic-text {
+        font-style: italic;
+        font-size: 20px;
+        margin-left: 600px;
+        margin-top: -30px;
+    }
+    .centered-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 280px; 
+}
+
+.get-started-button {
+  background-color: #4085c1; 
+  color: white;
+  padding: 15px 60px;
+  border-radius: 20px; 
+  text-decoration: none; 
+  font-size: 16px;
+  width: auto; 
+  display: inline-block; 
+}
+
+.get-started-button:hover {
+  background-color: #2a6184; 
+}
+.right-image {
+  position: absolute;
+  top: 60%; 
+  right: 20px; 
+  transform: translateY(-50%);
+  max-width: 20%; 
+}
+.bottom-center-image {
+  position: absolute;
+  bottom: 43px; 
+  left: calc(50% + 200px);
+  transform: translateX(-50%);
+  max-width: 33%; 
+  
+}
+.left-image {
+  position: absolute;
+  top: 69%; 
+  left: 360px; 
+  transform: translateY(-50%);
+  max-width: 15%; 
+}
+.left--image {
+  position: absolute;
+  top: 75%; 
+  left: 80px; 
+  transform: translateY(-50%);
+  max-width: 15%; 
+}
+
+
+    
+
+    
+
+
+
+</style>
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="#Journey Jolt">Journey Jolt</a></li>
+    <li><a href="#Journey Jolt Pro">Journey Jolt Pro</a></li>
+    <li><a href="#How it works">How it works</a></li>
+    <li><a href="#Pricing">Pricing</a></li>
+    <li><a href="#SAP Concur">SAP Concur</a></li>
+    <li><a href="#Sign in">Sign in</a></li>
+
+  </ul>
+  
+</nav>
+<img class="centered-image" src="c:\Users\namra\OneDrive\Desktop\final logo.png" alt="Centered Image">
+<div class="signup-box-container">
+  <a href="your_destination_url_here" class="signup-box-anchor">
+      <div class="signup-box">
+          <p>Sign up, it's free</p>
+      </div>
+  </a>
+</div>
+
+</div>
+<div class="language-selector">
+    <div class="language-selector-text">EN</div>
+    <div class="dropdown-content">
+        <a href="#">English(UK)</a>
+        <a href="#">English(US)</a>
+        
+        
+
+    </div>
+</div>
+<div class="center-text">
+  <p class="bold-text">An easier trip,<br><span class="each-time"></span> each time</p>
+  </div>
+  <div class="italic-text">Imagine checking one place for your travel details<br> and getting a heads up as things happen<br> throughout your trip. See why life without journey<br> jolt is a distant memory for million of travellers.</div>
+  <div class="centered-button">
+    <a href="your_destination_url_here" class="get-started-button">Get Started</a>
+  </div>
+  <img class="right-image" src="c:\Users\namra\OneDrive\Desktop\Screenshot 2024-03-24 150808 5.png" alt="Right Image">
+  <img class="bottom-center-image" src="c:\Users\namra\OneDrive\Desktop\Screenshot 2024-03-24 150808 6.png" alt="Bottom Center Image">
+  <img class="left-image" src="c:\Users\namra\OneDrive\Desktop\7.png" alt="Left Image">
+  <img class="left--image" src="c:\Users\namra\OneDrive\Desktop\Screenshot 2024-03-24 150808 2.png" alt="Left Image">
+  
+
+    
+   
+    
+
+
+  
+
+
+</body>
+</html>
